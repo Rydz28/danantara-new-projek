@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daya Anagata Nusantara (Danantara)</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="background-container">
+        <div class="particle-container"></div>
+        <div class="data-flow-container"></div>
+    </div>
+    
+    <div class="page-transition"></div>
+    
+    <header>
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <div class="logo-text">
+                <h1>DANANTARA</h1>
+                <p>Daya Anagata Nusantara</p>
+            </div>
+        </div>
+        
+        <nav class="holographic-menu">
+            <ul>
+                <li><a href="#beranda" class="holo-item">Beranda</a></li>
+                <li><a href="#proyek" class="holo-item">Proyek Investasi</a></li>
+                <li><a href="#visualisasi" class="holo-item">Data & Analisis</a></li>
+                <li><a href="#teknologi" class="holo-item">Teknologi</a></li>
+                <li><a href="#tentang" class="holo-item">Tentang Kami</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="beranda" class="hero-section">
+            <div class="hero-content">
+                <h2 class="glowing-text">Masa Depan Investasi <span>Indonesia</span></h2>
+                <p>Membangun visi futuristik melalui inovasi teknologi dan pendekatan investasi berbasis digital</p>
+                <div class="cta-container">
+                    <button class="cta-button primary-btn">Jelajahi Peluang</button>
+                    <button class="cta-button secondary-btn">Pelajari Lebih Lanjut</button>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <h3>Peta Investasi Digital Indonesia</h3>
+                <div id="indonesia-map" class="interactive-map">
+                    <!-- Peta interaktif akan dirender oleh JavaScript -->
+                </div>
+                <div class="map-legend">
+                    <div class="legend-item">
+                        <span class="dot tech-dot"></span>
+                        <span>Teknologi Digital</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="dot infra-dot"></span>
+                        <span>Infrastruktur</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="dot energy-dot"></span>
+                        <span>Energi Terbarukan</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="proyek" class="projects-section">
+            <div class="section-header">
+                <h2>Proyek Unggulan</h2>
+                <p>Portofolio investasi strategis di seluruh Indonesia</p>
+            </div>
+            
+            <div class="project-grid">
+                <div class="project-card" data-location="jakarta">
+                    <div class="project-hologram"></div>
+                    <div class="project-content">
+                        <h3>Jakarta Smart City Hub</h3>
+                        <p class="project-type">Teknologi Digital</p>
+                        <p class="project-desc">Mengintegrasikan seluruh layanan publik dengan teknologi pintar berbasis AI dan IoT.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="value">Rp 2,5T</span>
+                                <span class="label">Nilai Investasi</span>
+                            </div>
+                            <div class="stat">
+                                <span class="value">2025</span>
+                                <span class="label">Target Selesai</span>
+                            </div>
+                        </div>
+                        <button class="detail-btn">Detail Proyek</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-location="surabaya">
+                    <div class="project-hologram"></div>
+                    <div class="project-content">
+                        <h3>Surabaya Tech Harbor</h3>
+                        <p class="project-type">Infrastruktur Digital</p>
+                        <p class="project-desc">Pengembangan pelabuhan pintar dengan sistem logistik otomatis dan tracking real-time.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="value">Rp 1,8T</span>
+                                <span class="label">Nilai Investasi</span>
+                            </div>
+                            <div class="stat">
+                                <span class="value">2024</span>
+                                <span class="label">Target Selesai</span>
+                            </div>
+                        </div>
+                        <button class="detail-btn">Detail Proyek</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-location="bali">
+                    <div class="project-hologram"></div>
+                    <div class="project-content">
+                        <h3>Bali Digital Tourism Valley</h3>
+                        <p class="project-type">Ekosistem Digital</p>
+                        <p class="project-desc">Mengubah pengalaman pariwisata melalui integrasi teknologi AR/VR dan pengelolaan digital.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="value">Rp 1,2T</span>
+                                <span class="label">Nilai Investasi</span>
+                            </div>
+                            <div class="stat">
+                                <span class="value">2026</span>
+                                <span class="label">Target Selesai</span>
+                            </div>
+                        </div>
+                        <button class="detail-btn">Detail Proyek</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-location="makassar">
+                    <div class="project-hologram"></div>
+                    <div class="project-content">
+                        <h3>Makassar Maritime Hub</h3>
+                        <p class="project-type">Infrastruktur</p>
+                        <p class="project-desc">Modernisasi infrastruktur maritim dengan teknologi pemantauan lingkungan dan sistem keamanan cyber.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="value">Rp 1,5T</span>
+                                <span class="label">Nilai Investasi</span>
+                            </div>
+                            <div class="stat">
+                                <span class="value">2027</span>
+                                <span class="label">Target Selesai</span>
+                            </div>
+                        </div>
+                        <button class="detail-btn">Detail Proyek</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="visualisasi" class="data-visualization-section">
+            <div class="section-header">
+                <h2>Visualisasi Data Investasi</h2>
+                <p>Analisis real-time perkembangan dan dampak investasi strategis</p>
+            </div>
+            
+            <div class="viz-container">
+                <div class="viz-controls">
+                    <div class="time-controls">
+                        <button class="time-btn active" data-time="yearly">Tahunan</button>
+                        <button class="time-btn" data-time="quarterly">Kuartalan</button>
+                        <button class="time-btn" data-time="monthly">Bulanan</button>
+                    </div>
+                    <div class="view-controls">
+                        <button class="view-btn active" data-view="graph">Grafik</button>
+                        <button class="view-btn" data-view="map">Peta</button>
+                        <button class="view-btn" data-view="table">Tabel</button>
+                    </div>
+                </div>
+                
+                <div class="data-canvas-container">
+                    <canvas id="dataCanvas" class="data-canvas"></canvas>
+                    <div class="canvas-overlay">
+                        <div class="data-tip">
+                            <p>Klik dan geser untuk memutar visualisasi</p>
+                            <p>Gunakan scroll untuk memperbesar/perkecil</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="data-highlights">
+                    <div class="highlight-card">
+                        <h4>Total Investasi</h4>
+                        <p class="highlight-value">Rp 12,5T</p>
+                        <p class="highlight-change positive">+18% YoY</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>Proyek Aktif</h4>
+                        <p class="highlight-value">42</p>
+                        <p class="highlight-change positive">+7 dari 2022</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h4>ROI Rata-rata</h4>
+                        <p class="highlight-value">15,8%</p>
+                        <p class="highlight-change positive">+2,3% YoY</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="teknologi" class="tech-section">
+            <div class="section-header">
+                <h2>Ekosistem Teknologi</h2>
+                <p>Infrastruktur digital canggih untuk keamanan dan keberlanjutan investasi</p>
+            </div>
+            
+            <div class="tech-showcase">
+                <div class="cyber-security-visual">
+                    <div class="encryption-layer"></div>
+                    <div class="security-nodes">
+                        <div class="node-container">
+                            <div class="node node-primary" data-type="firewall"></div>
+                            <div class="node node-secondary" data-type="ids"></div>
+                            <div class="node node-secondary" data-type="encryption"></div>
+                            <div class="node node-primary" data-type="auth"></div>
+                            <div class="node node-secondary" data-type="monitor"></div>
+                        </div>
+                        <div class="connection-lines"></div>
+                        <div class="data-packets"></div>
+                        <div class="security-shield">
+                            <div class="shield-icon"></div>
+                        </div>
+                    </div>
+                    <div class="security-info">
+                        <div class="security-header">
+                            <div class="security-icon">
+                                <span class="icon-pulse"></span>
+                            </div>
+                            <h3>Sistem Keamanan Cyber</h3>
+                        </div>
+                        <p class="security-description">Perlindungan data kelas dunia dengan <span class="highlight-text">enkripsi quantum-resistant</span></p>
+                        <ul class="security-features">
+                            <li>
+                                <span class="feature-icon monitor-icon"></span>
+                                <span class="feature-text">Monitoring 24/7 dengan AI Predictive Analytics</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon realtime-icon"></span>
+                                <span class="feature-text">Analisis ancaman real-time dengan response < 0.5ms</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon zerotrust-icon"></span>
+                                <span class="feature-text">Zero-trust architecture dengan multi-layer verification</span>
+                            </li>
+                        </ul>
+                        <div class="security-stat">
+                            <div class="stat-item">
+                                <span class="stat-value">99.9%</span>
+                                <span class="stat-label">Threat Detection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-features">
+                    <div class="tech-feature">
+                        <div class="feature-icon ai-icon"></div>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Algoritma prediktif untuk optimalisasi performa investasi dan deteksi risiko</p>
+                    </div>
+                    <div class="tech-feature">
+                        <div class="feature-icon blockchain-icon"></div>
+                        <h3>Blockchain</h3>
+                        <p>Transparansi dan keamanan transaksi dengan teknologi terdistribusi</p>
+                    </div>
+                    <div class="tech-feature">
+                        <div class="feature-icon cloud-icon"></div>
+                        <h3>Cloud Infrastructure</h3>
+                        <p>Skalabilitas dan kehandalan layanan dengan arsitektur hybrid cloud</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tentang" class="about-section">
+            <div class="section-header">
+                <h2>Tentang Danantara</h2>
+                <p>Visi dan misi untuk masa depan ekonomi digital Indonesia</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Daya Anagata Nusantara (Danantara) merupakan lembaga investasi negara terdepan yang berfokus pada pengembangan ekonomi digital dan infrastruktur teknologi strategis. Didirikan dengan visi untuk mengakselerasi transformasi digital Indonesia, kami mengelola dana investasi pemerintah dan mitra strategis untuk proyek-proyek bernilai tinggi.</p>
+                    <p>Dengan pendekatan futuristik dan inovatif, Danantara membangun ekosistem investasi yang terintegrasi, transparan, dan berkelanjutan. Komitmen kami adalah menciptakan pertumbuhan ekonomi inklusif melalui teknologi canggih yang dapat diakses oleh seluruh lapisan masyarakat.</p>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label">Tahun Berpengalaman</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Rp 45T</span>
+                        <span class="stat-label">Portfolio Investasi</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">120+</span>
+                        <span class="stat-label">Mitra Strategis</span>
+                    </div>
+                </div>
+                
+                <div class="team-glimpse">
+                    <h3>Dipimpin oleh Profesional Terbaik</h3>
+                    <div class="team-cards">
+                        <div class="team-card">
+                            <div class="team-avatar"></div>
+                            <h4>Dr. Hendra Wijaya</h4>
+                            <p>Direktur Utama</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar"></div>
+                            <h4>Ir. Amalia Putri</h4>
+                            <p>Direktur Teknologi</p>
+                        </div>
+                        <div class="team-card">
+                            <div class="team-avatar"></div>
+                            <h4>Budi Santoso, Ph.D</h4>
+                            <p>Direktur Investasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-main">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <div class="logo-icon"></div>
+                    <h3>DANANTARA</h3>
+                </div>
+                <p>Mitra Strategis Pembangunan Ekonomi Digital Indonesia</p>
+                <address>
+                    Gedung Cyber Tower, Lantai 28<br>
+                    Jl. HR. Rasuna Said X5 No.13<br>
+                    Jakarta Selatan, 12950
+                </address>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Navigasi Cepat</h4>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#proyek">Proyek</a></li>
+                        <li><a href="#visualisasi">Data & Analisis</a></li>
+                        <li><a href="#teknologi">Teknologi</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-column">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#">Investasi</a></li>
+                        <li><a href="#">Konsultasi</a></li>
+                        <li><a href="#">Pengembangan</a></li>
+                        <li><a href="#">Kerja Sama</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-column">
+                    <h4>Sumber Daya</h4>
+                    <ul>
+                        <li><a href="#">Publikasi</a></li>
+                        <li><a href="#">Laporan Tahunan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Karir</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h4>Langganan Berita Terbaru</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Alamat Email Anda" required>
+                    <button type="submit" class="subscribe-btn">Berlangganan</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" class="social-link"></a>
+                    <a href="#" class="social-link"></a>
+                    <a href="#" class="social-link"></a>
+                    <a href="#" class="social-link"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-horizon">
+            <!-- Elemen visual horizon digital -->
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 Daya Anagata Nusantara. Hak Cipta Dilindungi.</p>
+            <p>Dikembangkan dengan teknologi digital canggih di Indonesia</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
